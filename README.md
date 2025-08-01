@@ -75,8 +75,8 @@ Below are examples of generated MRI images compared to their ground truth:
 
 | Ground Truth (Real)       | Generated Output (Ours)     |
 |---------------------------|-----------------------------|
-| ![](samples_test/real1.png) | ![](samples_test/our1.png) |
-| ![](samples_test/real2.png) | ![](samples_test/our2.png) |
+| ![](real1.png) | ![](our1.png) |
+| ![](real2.png) | ![](our2.png) |
 
 
 > Ground truth images are from `../data/breast_mri/images/test/`  
