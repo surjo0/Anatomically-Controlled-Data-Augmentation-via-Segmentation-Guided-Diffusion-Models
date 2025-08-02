@@ -13,7 +13,7 @@ We use the **Duke-Breast-Cancer-MRI** dataset.
 
 🗂 **Folder structure:**
 
-segmentation-guided-diffusion/
+`segmentation-guided-diffusion/
 ├── data/
 │   └── breast_mri/
 │       ├── images/
@@ -23,7 +23,7 @@ segmentation-guided-diffusion/
 │       └── masks/
 │           ├── train/
 │           ├── val/
-│           └── test/
+│           └── test/`
 
 ## Requirements
 
