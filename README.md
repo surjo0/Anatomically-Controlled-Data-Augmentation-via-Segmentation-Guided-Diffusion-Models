@@ -36,17 +36,14 @@ MASK_FOLDER
 ├── all
 │   ├── train
 │   │   ├── tr_1.png
-│   │   ├── tr_2.png
-│   │   └── ...
+│   │   └── tr_2.png
 │   ├── val
 │   │   ├── val_1.png
-│   │   ├── val_2.png
-│   │   └── ...
+│   │   └── val_2.png
 │   └── test
 │       ├── ts_1.png
-│       ├── ts_2.png
-│       └── ...
-
+│       └── ts_2.png
+└── ...
 
 
 ## Requirements
