@@ -13,17 +13,41 @@ We use the **Duke-Breast-Cancer-MRI** dataset.
 
 🗂 **Folder structure:**
 
-`segmentation-guided-diffusion/
-├── data/
-│   └── breast_mri/
-│       ├── images/
-│       │   ├── train/
-│       │   ├── val/
-│       │   └── test/
-│       └── masks/
-│           ├── train/
-│           ├── val/
-│           └── test/`
+**Data Folder**
+
+DATA_FOLDER
+├── train
+│   ├── tr_1.png
+│   ├── tr_2.png
+│   └── ...
+├── val
+│   ├── val_1.png
+│   ├── val_2.png
+│   └── ...
+└── test
+    ├── ts_1.png
+    ├── ts_2.png
+    └── ...
+
+
+**Mask Folder**
+
+MASK_FOLDER
+├── all
+│   ├── train
+│   │   ├── tr_1.png
+│   │   ├── tr_2.png
+│   │   └── ...
+│   ├── val
+│   │   ├── val_1.png
+│   │   ├── val_2.png
+│   │   └── ...
+│   └── test
+│       ├── ts_1.png
+│       ├── ts_2.png
+│       └── ...
+
+
 
 ## Requirements
 
