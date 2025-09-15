@@ -32,6 +32,7 @@ DATA_FOLDER
 
 **Mask Folder**
 
+```
 MASK_FOLDER
 ├── all
 │   ├── train
@@ -44,6 +45,7 @@ MASK_FOLDER
 │       ├── ts_1.png
 │       └── ts_2.png
 └── ...
+```
 
 
 ## Requirements
