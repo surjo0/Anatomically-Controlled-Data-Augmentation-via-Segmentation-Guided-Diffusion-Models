@@ -14,7 +14,8 @@ We use the **Duke-Breast-Cancer-MRI** dataset.
 🗂 **Folder structure:**
 
 **Data Folder**
-
+Put your training images in some dataset directory DATA_FOLDER (with any filenames), organized into train, validation and test split subdirectories. The images should be in a format that PIL can read (e.g. .png, .jpg, etc.) if they are standard 1- or 3-channel images, and for images with other channel counts use NumPy array files.
+```
 DATA_FOLDER
 ├── train
 │   ├── tr_1.png
@@ -28,10 +29,10 @@ DATA_FOLDER
     ├── ts_1.png
     ├── ts_2.png
     └── ...
-
+```
 
 **Mask Folder**
-
+Put your segmentation masks within a similar directory structure in a separate folder MASK_FOLDER, with a subdirectory all that contains the split subfolders, as shown below. Each segmentation mask should have the same filename as its corresponding image in DATA_FOLDER, and should be saved with integer values starting at zero for each object class, i.e., 0, 1, 2,.... 
 ```
 MASK_FOLDER
 ├── all
